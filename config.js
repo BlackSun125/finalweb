@@ -15,5 +15,5 @@ const CONFIG = {
     mess: 'Lêu lêu trả lời sai rồi nhaaaaaa',
     messDesc: 'Mùa hạ đẹp nhất là mùa hạ năm nay đó :3',
     btnAccept: 'Bấm vào đây để biết lí do!',
-    messLink: ''
+    messLink: 'https://www.instagram.com/direct/t/111576090238364/'
 }
