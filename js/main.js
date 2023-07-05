@@ -122,29 +122,14 @@ function textGenerate() {
 var flat = 0;
 // show popup
 $('#yes').click(function() {
-    if (flat == 0) {
-        init2();
-        $('.content').hide();
-        Swal.fire({
-            title: CONFIG.question1,
-            text: '(Định chọn không chứ giề 🙄🙄)',
-            background: '#fff url("img/iput-bg.jpg")',
-            confirmButtonColor: '#3085d6',
-            confirmButtonColor: '#fe8a71',
-            confirmButtonText: CONFIG.btnReply1
-        }).then(function() {
-            $('.content').show(200);
-        })
-        flat = 1;
-        setTimeout(function() {
-            $('.spinner').fadeOut();
-            $('#preloader').delay(350).fadeOut('slow');
-            $('body').delay(350).css({
-                'overflow': 'visible'
-            });
-        }, 600);
-    }
-    else {
+    Swal.fire({
+        title: CONFIG.question1,
+        text: 'Anh cảm ơn bé Linh :3',
+        background: '#fff url("img/iput-bg.jpg")',
+        confirmButtonColor: '#3085d6',
+        confirmButtonColor: '#fe8a71',
+        confirmButtonText: CONFIG.btnReply1
+    }).then(function() {
     var audio = new Audio('sound/tick.mp3');
     audio.play();
     Swal.fire({
@@ -178,5 +163,5 @@ $('#yes').click(function() {
             })
         }
     })
-    }
+    })
 })
