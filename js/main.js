@@ -51,7 +51,7 @@ function firstQuestion() {
         // text:CONFIG.introDesc,
         html: `<p>Trời lạnh là tại đông</p>
                <p>Yêu nàng là tại hạ</p>
-               <p>From Ngô Quang Khoa with love <3</p> `,
+               <p>From Khoa Ngô with love <3</p> `,
         imageUrl: 'img/love.gif',
         imageWidth: 300,
         imageHeight: 300,
@@ -124,7 +124,7 @@ var flat = 0;
 $('#yes').click(function() {
     Swal.fire({
         title: CONFIG.question1,
-        text: 'Anh cảm ơn bé Linh :3',
+        text: 'Cảm ơn babi😻',
         background: '#fff url("img/iput-bg.jpg")',
         confirmButtonColor: '#3085d6',
         confirmButtonColor: '#fe8a71',
@@ -137,7 +137,7 @@ $('#yes').click(function() {
         html: true,
         width: 900,
         padding: '3em',
-        html: "<input type='text' class='form-control' id='txtReason' placeholder='Mẫu câu trả lời: mùa hạ...'>",
+        html: "<input type='text' class='form-control' id='txtReason' placeholder='Mẫu câu trả lời: mùa xuân...'>",
         background: '#fff url("img/iput-bg.jpg")',
         backdrop: `
               rgba(0,0,123,0.4)
